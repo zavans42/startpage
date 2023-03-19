@@ -18,59 +18,50 @@ export interface linkGroup {
   links: dataElem[]
 }
 
-/*
-──────▄▌▐▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀​▀▀▀▀▀▀▌
-───▄▄██▌█ BEEP BEEP
-▄▄▄▌▐██▌█ GAY PORN DELIVERY
-███████▌█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄​▄▄▄▄▄▄▌
-▀(@)▀▀▀▀▀▀▀(@)(@)▀▀▀▀▀▀▀▀▀▀▀▀▀​▀▀▀▀(@)▀
-*/
 export const links: linkGroup[] = [
   {
-    title: "Reddit",
+    title: "Developer",
     links: [
       {
-        label: "r/startpages",
-        value: "https://www.reddit.com/r/startpages/",
+        label: "Mdn",
+        value: "https://developer.mozilla.org/en-US/",
       },
       {
-        label: "r/unixporn",
-        value: "https://www.reddit.com/r/unixporn/",
+        label: "Codepen",
+        value: "https://codepen.io/zavans42",
       },
       {
-        label: "r/rainmeter",
-        value: "https://www.reddit.com/r/rainmeter/",
+        label: "Codewars",
+        value: "https://www.codewars.com/",
       },
       {
-        label: "r/AnimalsBeingDerps",
-        value: "https://www.reddit.com/r/AnimalsBeingDerps/",
+        label: "Markdown",
+        value: "https://jbt.github.io/markdown-editor/",
       },
     ],
   },
   {
-    title: "3D Modelling",
+    title: "Networking",
     links: [
       {
-        label: "Blender",
-        value: "https://www.blender.org/",
+        label: "Slack",
+        value: "https://slack.com/",
       },
       {
-        label: "BlenderGuru",
-        value: "https://www.blenderguru.com/",
+        label: "Gmail",
+        value: "https://mail.google.com/mail/u/0/",
       },
       {
-        label: "Poliigon",
-        value: "https://www.poliigon.com/",
+        label: "Github",
+        value: "https://github.com/",
       },
       {
-        label: "Blender tutorial",
-        value:
-          "https://www.youtube.com/watch?v=NyJWoyVx_XI&list=PLjEaoINr3zgEq0u2MzVgAaHEBt--xLB6U",
+        label: "Twitter",
+        value: "https://twitter.com/ZaVans42",
       },
       {
-        label: "The other Blender tutorial",
-        value:
-          "https://www.youtube.com/watch?v=bpvh-9H8S1g&list=PL8eKBkZzqDiU-qcoaghCz04sMitC1yx6k&index=1",
+        label: "LinkedIn",
+        value: "https://www.linkedin.com/feed/",
       },
     ],
   },
