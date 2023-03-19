@@ -20,95 +20,95 @@ export interface linkGroup {
 
 export const links: linkGroup[] = [
   {
-    "title": "Developer",
-    "links": [
+    title: "Developer",
+    links: [
       {
-        "label": "Mdn",
-        "value": "https://developer.mozilla.org/en-US/"
+        label: "Mdn",
+        value: "https://developer.mozilla.org/en-US/",
       },
       {
-        "label": "Codepen",
-        "value": "https://codepen.io/zavans42"
+        label: "Codepen",
+        value: "https://codepen.io/zavans42",
       },
       {
-        "label": "Codewars",
-        "value": "https://www.codewars.com/"
+        label: "Codewars",
+        value: "https://www.codewars.com/",
       },
       {
-        "label": "Markdown",
-        "value": "https://jbt.github.io/markdown-editor/"
+        label: "Markdown",
+        value: "https://jbt.github.io/markdown-editor/",
+      },
+    ],
+  },
+  {
+    title: "Networking",
+    links: [
+      {
+        label: "Slack",
+        value: "https://slack.com/",
+      },
+      {
+        label: "Gmail",
+        value: "https://mail.google.com/mail/u/0/",
+      },
+      {
+        label: "Github",
+        value: "https://github.com/",
+      },
+      {
+        label: "Twitter",
+        value: "https://twitter.com/ZaVans42",
+      },
+      {
+        label: "LinkedIn",
+        value: "https://www.linkedin.com/feed/",
+      },
+    ],
+  },
+  {
+    title: "https://wallhaven.cc/",
+    links: [
+      {
+        label: "Keep",
+        value: "https://keep.google.com/u/0",
+      },
+      {
+        label: "Drive",
+        value: "https://drive.google.com/drive/u/0/my-drive",
+      },
+      {
+        label: "Slides",
+        value: "https://slides.com/leonnoel",
+      },
+      {
+        label: "Activity",
+        value: "http://localhost:5600/#/home",
       }
     ]
   },
   {
-    "title": "Networking",
-    "links": [
+    title: "Internet",
+    links: [
       {
-        "label": "Slack",
-        "value": "https://slack.com/"
+        label: "Youtube",
+        value: "https://www.youtube.com/",
       },
       {
-        "label": "Gmail",
-        "value": "https://mail.google.com/mail/u/0/"
-      },
-      {
-        "label": "Github",
-        "value": "https://github.com/"
-      },
-      {
-        "label": "Twitter",
-        "value": "https://twitter.com/ZaVans42"
-      },
-      {
-        "label": "LinkedIn",
-        "value": "https://www.linkedin.com/feed/"
+        label: "Wallhaven",
+        value: "https://wallhaven.cc/",
       }
     ]
   },
   {
-    "title": "Helper",
-    "links": [
+    title: "Habits",
+    links: [
       {
-        "label": "Keep",
-        "value": "https://keep.google.com/u/0"
+        label: "Journey",
+        value: "https://journey.cloud/",
       },
       {
-        "label": "Drive",
-        "value": "https://drive.google.com/drive/u/0/my-drive"
-      },
-      {
-        "label": "Slides",
-        "value": "https://slides.com/leonnoel"
-      },
-      {
-        "label": "Activity",
-        "value": "http://localhost:5600/#/home"
-      }
-    ]
-  },
-  {
-    "title": "Internet",
-    "links": [
-      {
-        "label": "Youtube",
-        "value": "https://www.youtube.com/"
-      },
-      {
-        "label": "Wallhaven",
-        "value": "https://wallhaven.cc/"
-      }
-    ]
-  },
-  {
-    "title": "Habits",
-    "links": [
-      {
-        "label": "Journey",
-        "value": "https://journey.cloud/"
-      },
-      {
-        "label": "Waking Up",
-        "value": "https://app.wakingup.com/practice/introductory-course"
+        label: "Waking Up",
+        value: "https://app.wakingup.com/practice/introductory-course",
       }
     ]
   }
