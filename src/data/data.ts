@@ -20,131 +20,98 @@ export interface linkGroup {
 
 export const links: linkGroup[] = [
   {
-    title: "Developer",
-    links: [
+    "title": "Developer",
+    "links": [
       {
-        label: "Mdn",
-        value: "https://developer.mozilla.org/en-US/",
+        "label": "Mdn",
+        "value": "https://developer.mozilla.org/en-US/"
       },
       {
-        label: "Codepen",
-        value: "https://codepen.io/zavans42",
+        "label": "Codepen",
+        "value": "https://codepen.io/zavans42"
       },
       {
-        label: "Codewars",
-        value: "https://www.codewars.com/",
+        "label": "Codewars",
+        "value": "https://www.codewars.com/"
       },
       {
-        label: "Markdown",
-        value: "https://jbt.github.io/markdown-editor/",
-      },
-    ],
+        "label": "Markdown",
+        "value": "https://jbt.github.io/markdown-editor/"
+      }
+    ]
   },
   {
-    title: "Networking",
-    links: [
+    "title": "Networking",
+    "links": [
       {
-        label: "Slack",
-        value: "https://slack.com/",
+        "label": "Slack",
+        "value": "https://slack.com/"
       },
       {
-        label: "Gmail",
-        value: "https://mail.google.com/mail/u/0/",
+        "label": "Gmail",
+        "value": "https://mail.google.com/mail/u/0/"
       },
       {
-        label: "Github",
-        value: "https://github.com/",
+        "label": "Github",
+        "value": "https://github.com/"
       },
       {
-        label: "Twitter",
-        value: "https://twitter.com/ZaVans42",
+        "label": "Twitter",
+        "value": "https://twitter.com/ZaVans42"
       },
       {
-        label: "LinkedIn",
-        value: "https://www.linkedin.com/feed/",
-      },
-    ],
+        "label": "LinkedIn",
+        "value": "https://www.linkedin.com/feed/"
+      }
+    ]
   },
   {
-    title: "Design",
-    links: [
+    "title": "Helper",
+    "links": [
       {
-        label: "PixlrX",
-        value: "https://pixlr.com/x/",
+        "label": "Keep",
+        "value": "https://keep.google.com/u/0"
       },
       {
-        label: "AI Image Enlarger",
-        value: "https://bigjpg.com/en",
+        "label": "Drive",
+        "value": "https://drive.google.com/drive/u/0/my-drive"
       },
       {
-        label: "Img to Svg Converter",
-        value: "https://picsvg.com/",
+        "label": "Slides",
+        "value": "https://slides.com/leonnoel"
       },
       {
-        label: "Affinity",
-        value: "https://affinity.serif.com/en-us/tutorials/designer/desktop/",
-      },
-      {
-        label: "Affinity - YT",
-        value: "https://www.youtube.com/c/AffinityRevolution/playlists",
-      },
-    ],
+        "label": "Activity",
+        "value": "http://localhost:5600/#/home"
+      }
+    ]
   },
   {
-    title: "Music",
-    links: [
+    "title": "Internet",
+    "links": [
       {
-        label: "i wanna be a cowboy",
-        value: "https://www.youtube.com/watch?v=8zWz92f_HGs",
+        "label": "Youtube",
+        "value": "https://www.youtube.com/"
       },
       {
-        label: "let the bodies hit the floor",
-        value: "https://www.youtube.com/watch?v=b--VKaCB9u0",
-      },
-      {
-        label: "Nobody Kanna Cross It",
-        value: "https://www.youtube.com/watch?v=2wqTnwJGvtc",
-      },
-      {
-        label: "Smug Dancin",
-        value: "https://www.youtube.com/watch?v=eNZ9Od1jQ4Q",
-      },
-      {
-        label: "Utamaru - The Sanctified Mind Cover",
-        value: "https://www.youtube.com/watch?v=MHlJKLlS07U",
-      },
-    ],
+        "label": "Wallhaven",
+        "value": "https://wallhaven.cc/"
+      }
+    ]
   },
   {
-    title: "Sauce",
-    links: [
+    "title": "Habits",
+    "links": [
       {
-        label: "Pictures - DeathAndMilk",
-        value: "https://www.instagram.com/deathandmilk_/",
+        "label": "Journey",
+        "value": "https://journey.cloud/"
       },
       {
-        label: "Icons - FontAwesome",
-        value: "https://fontawesome.com/icons",
-      },
-      {
-        label: "Text Flicker - CodeMyUI",
-        value:
-          "https://codemyui.com/crt-screen-text-flicker-animation-in-pure-css/",
-      },
-      {
-        label: "Wave Animation - mburakerman",
-        value: "https://codepen.io/mburakerman/pen/eRZZEv",
-      },
-      {
-        label: "Da real sauce ԅ(♡﹃♡ԅ)",
-        value: "https://www.youtube.com/watch?v=qr89xoZyE1g",
-      },
-      {
-        label: "Even more real sauce ( ͡° ͜ʖ ͡°)",
-        value: "https://www.youtube.com/watch?v=VLhJOd_TFiI",
-      },
-    ],
-  },
+        "label": "Waking Up",
+        "value": "https://app.wakingup.com/practice/introductory-course"
+      }
+    ]
+  }
 ]
 
 export const images: dataElem[] = [
@@ -289,7 +256,7 @@ export const themes: Theme[] = [
   },
   {
     name: "Pastel Aesthetic",
-    image: "https://i.imgur.com/bZHurZn.jpeg",
+    image: "https://64.media.tumblr.com/c8ca972ef970ca556be0ae0a432a9904/ee34dea75ff3f38c-46/s500x750/7ca0a015e3aad8124378d6abd571ab6ed26f410b.gifv",
     colors: {
       "--bg-color": "#2E2E2E",
       "--default-color": "#F3C9CB",
