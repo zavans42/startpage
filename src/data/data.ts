@@ -83,8 +83,8 @@ export const links: linkGroup[] = [
       {
         label: "Activity",
         value: "http://localhost:5600/#/home",
-      }
-    ]
+      },
+    ],
   },
   {
     title: "Internet",
@@ -96,8 +96,8 @@ export const links: linkGroup[] = [
       {
         label: "Wallhaven",
         value: "https://wallhaven.cc/",
-      }
-    ]
+      },
+    ],
   },
   {
     title: "Habits",
@@ -109,9 +109,9 @@ export const links: linkGroup[] = [
       {
         label: "Waking Up",
         value: "https://app.wakingup.com/practice/introductory-course",
-      }
-    ]
-  }
+      },
+    ],
+  },
 ]
 
 export const images: dataElem[] = [
@@ -256,7 +256,8 @@ export const themes: Theme[] = [
   },
   {
     name: "Pastel Aesthetic",
-    image: "https://64.media.tumblr.com/c8ca972ef970ca556be0ae0a432a9904/ee34dea75ff3f38c-46/s500x750/7ca0a015e3aad8124378d6abd571ab6ed26f410b.gifv",
+    image: 
+      "https://64.media.tumblr.com/c8ca972ef970ca556be0ae0a432a9904/ee34dea75ff3f38c-46/s500x750/7ca0a015e3aad8124378d6abd571ab6ed26f410b.gifv",
     colors: {
       "--bg-color": "#2E2E2E",
       "--default-color": "#F3C9CB",
